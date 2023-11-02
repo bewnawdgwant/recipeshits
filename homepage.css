@@ -1,0 +1,39 @@
+.description{
+ width: 900px;
+ padding: 100px;
+ display: flex;
+ color: white;
+}
+
+.description-right{
+    position: absolute;
+    font-size: 120px;
+    font-weight: 500;
+    right: 120px;
+    top: 100px;
+    font-family: 'Rubik Mono One';
+
+    
+  
+}
+.description-left{
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    font-size: 35px;
+    left: 85px;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white; 
+    padding: 50px 0 50px 0;
+    top: 150px;
+    
+}
+body{
+    background-image: url(homepage\ bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+
+

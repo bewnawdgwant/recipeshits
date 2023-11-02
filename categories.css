@@ -1,0 +1,176 @@
+body{
+  background-color: #caba9c;
+}
+
+.header-categories{
+    border: 1px solid #4d2d18;
+    background-color: #4d2d18;
+    display: flex;
+    justify-content: center;
+    color: white;
+    height: 75px;
+    padding: 25px 0px 50px 0px;
+    position: relative;
+    top: 100px;
+
+}
+.categories-title{
+    font-size: 50px;
+    position: absolute;
+    bottom: 1px;
+    font-family: 'Libre Baskerville';
+}
+
+
+.categories{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 120px;
+    grid-row-gap: 80px;
+    margin: 10px;
+    position: relative;
+    top: 150px;
+}
+.title, a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+}
+
+.categories *{
+    font-family: "Montserrat";
+}
+.title *{
+    font-family: 'Libre Baskerville';
+}
+
+/* MEAT */
+.meat{
+ 
+    padding: 10px;
+    background-color: #4c6444;
+    border-radius: 25px;
+}
+.meat-img-container{
+    display: flex;
+    justify-content: center;
+    
+}
+.meat-img{
+    width: 220px;
+    height: 200px
+}
+.meat-img-2{
+    width: 220px;
+    height: 200px
+
+/*SALAD*/
+}
+.salad{
+   
+    padding: 10px;
+    background-color: #4c6444;
+    border-radius: 25px;
+}
+.salad-img-container{
+    display:flex;
+    justify-content: center;
+}
+.salad-img-1{
+    width: 220px;
+    height: 200px
+}
+.salad-img-2{
+    width: 220px;
+    height: 200px
+}
+
+/*DESSERT*/
+.dessert{
+    padding: 10px;
+    background-color: #4c6444;
+    border-radius: 25px;
+}
+.dessert-img-container{
+    display:flex;
+    justify-content: center;
+}
+.dessert-img-1{
+    width: 220px;
+    height: 200px
+}
+.dessert-img-2{
+    width: 220px;
+    height: 200px
+}
+
+/*Renal Friendly*/
+.renal-friendly{
+
+    padding: 10px;
+    background-color: #4c6444;
+    border-radius: 25px;
+}
+.renal-img-container{
+    display:flex;
+    justify-content: center;
+}
+.renal-img-1{
+    width: 220px;
+    height: 200px
+}
+.renal-img-2{
+    width: 220px;
+    height: 200px;
+}
+
+
+/*Heart Healthy*/
+.heart-healthy{
+
+    padding: 10px;
+    background-color: #4c6444;
+    border-radius: 25px;
+}
+.heart-img-container{
+    display:flex;
+    justify-content: center;
+}
+.heart-img-1{
+    width: 220px;
+    height: 200px
+}
+.heart-img-2{
+    width: 220px;
+    height: 200px
+}
+
+
+/*Diabetes*/
+.diabetes{
+    padding: 10px;
+    background-color: #4c6444;
+    border-radius: 25px;
+}
+.diabetes-img-container{
+    display:flex;
+    justify-content: center;
+}
+.diabetes-img-1{
+    width: 220px;
+    height: 200px
+}
+.diabetes-img-2{
+    width: 220px;
+    height: 200px
+}
+
+
+
+
+
+

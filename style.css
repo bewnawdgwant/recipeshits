@@ -1,0 +1,47 @@
+.homepage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+     
+}
+
+.homepage-ul {
+    list-style-type: none;
+    padding: 10px;
+    display: flex;
+    border-radius: 20px;
+    gap: 50px;
+    position: absolute;
+    top: 50px;
+    right:350px;
+    
+}
+.homepage-ul li a:hover{
+    background-color: #4d2d18;
+}
+
+.homepage-ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px 25px;
+    background-color:  #4C6444;
+    border-radius: 50px;
+    font-size: 30px;
+
+
+}
+*{
+    font-size: 29px;
+}
+
+
+body{
+    background-image: url(ngii.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
