@@ -1,0 +1,29 @@
+.salad-recipe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.salad-recipe ol{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.salad-recipe ol li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.salad-recipe ol li a{
+    text-decoration: none;
+    color: white;
+    border:1px solid white;
+    padding: 20px 25px;
+    background-color: green;
+    border-radius: 40px;
+}
+*{
+    font-size: 25px;
+}
+.salad-recipe ol li a:hover{
+    background-color: black;
+}
